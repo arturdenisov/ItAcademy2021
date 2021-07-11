@@ -8,6 +8,7 @@ namespace Git
         static void Main(string[] args)
         {
             Console.WriteLine("Master 1");
+            Console.WriteLine("Develop 1");
         }
     }
 }
