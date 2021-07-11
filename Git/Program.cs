@@ -14,6 +14,9 @@ namespace Git
             Console.WriteLine("Feature 3");
             Console.WriteLine("Feature 4");
             Console.WriteLine("Feature 5");
+            Console.WriteLine("Develop 2");
+            Console.WriteLine("Master 2");
+            Console.WriteLine("Develop 3");
         }
     }
 }
