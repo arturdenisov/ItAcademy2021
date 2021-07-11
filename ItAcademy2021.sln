@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module 01", "Module 01", "{97F0C5AB-2C89-43E5-9DBB-92A4674C11EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugging", "Debugging\Debugging.csproj", "{7A76104B-F31C-43D8-99ED-058A4F524FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git", "Git\Git.csproj", "{656C60E1-3DE4-4EE3-9547-E332B84744D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A76104B-F31C-43D8-99ED-058A4F524FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A76104B-F31C-43D8-99ED-058A4F524FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A76104B-F31C-43D8-99ED-058A4F524FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A76104B-F31C-43D8-99ED-058A4F524FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656C60E1-3DE4-4EE3-9547-E332B84744D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656C60E1-3DE4-4EE3-9547-E332B84744D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656C60E1-3DE4-4EE3-9547-E332B84744D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656C60E1-3DE4-4EE3-9547-E332B84744D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A76104B-F31C-43D8-99ED-058A4F524FAB} = {97F0C5AB-2C89-43E5-9DBB-92A4674C11EB}
+		{656C60E1-3DE4-4EE3-9547-E332B84744D7} = {97F0C5AB-2C89-43E5-9DBB-92A4674C11EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {498F78C9-2FA6-410C-81E2-E085A1197D45}
+	EndGlobalSection
+EndGlobal
