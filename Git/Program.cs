@@ -9,6 +9,7 @@ namespace Git
         {
             Console.WriteLine("Master 1");
             Console.WriteLine("Develop 1");
+            Console.WriteLine("Feature 1");
         }
     }
 }
