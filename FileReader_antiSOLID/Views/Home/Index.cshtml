@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FileReader</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <main>
+        <div class="container mt-5">
+
+            <form asp-controller=Home asp-action=Upload method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="FormControlFile" class="h6">Отправить на сервер файлы *.txt или *.xlsx</label>
+                    <input type="file" class="form-control-file" id="FormControlFile" name="postedFile" value="Select File">
+                    <input type="submit" value="Отправить" class="btn btn-outline-secondary btn-sm mt-2" />
+                </div>
+            </form>
+         </div>
+    </main>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
